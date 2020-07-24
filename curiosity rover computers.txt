@@ -1,0 +1,26 @@
+The Computers Behind NASA's Mars Curiosity Rover
+
+Of all the systems onboard that have furthered our understanding of the Martian landscape, none have been as critical and as overworked as curiosity's onboard computer system. 
+
+Curiosity’s entire mission relies primarily on two identical on-board rover computers, called Rover Computer Element or RCE’s. These single board computers were designed to be hardened from the extreme radiation of space, safeguarding it against power-off cycles.  Each computer has 256 kilobytes of EEPROM, 256 MB of DRAM, and 2 GB of flash memory. They both run a safety-critical, real-time operating systems know as VxWorks. VxWorks is used heavily in the aerospace and defense industries and can be found in the avionics systems of a variety of aircraft.
+
+At the heart of the Rover Computer Elements is one of the most expensive CPU systems available, the BAE systems RAD750. Costing over a quarter million dollars per system board, the RAD750 CPU is a 10.4 million transistor radiation hardened processor that had been proven in dozens of space-based deployments since 2005.
+
+The single core CPU is based on a Power PC 750 architecture and can be clocked anywhere from 110 to 200 Mhz offerings over 266 million instructions per seconds of processing power, and operating on only 5 watts. It’s manufactured on a die almost twice the size of its commercial counterparts,  employing a  250 or 150nm photolithography process comparable to commercial semiconductor manufacturing of the late 1990s. This process contributes to the CPU’s immunity to radiation and tolerance for the extremely high-temperature swings of space. The RAD750 can handle between -55 degree C all the way up to 125 degrees C.
+
+The threat posed by radiation on silicone-based microelectronics can be both disruptive and destructive.  High-energy particles can cause a Single Event Upset in which radiation causes unwanted state changes in memory or a register, disrupting logic circuity.
+
+Destructive strikes known as Single Event Latchup, Single Event Gate Rupture, or Single Event Burnout are permanent effects of radiation that can pin logic circuity into a stuck state, rendering them useless.
+
+The RAD750 is capable of withstanding up to 1 million rads of radiation of exposure. This level of hardness is 6 orders of magnitude more resistant than standard consumer CPUs. 
+
+When Curiosity landed on Mars in 2012, it operated on one of its RCE’s, known as the “Side-A” computer. Immediately after landing a major software update was sent to the rover, flushing out the no-longer-needed entry, descent and landing application and replacing them with software optimized for surface operations. This was due to both the memory restrictions of the computers and the need for post-launch software development.
+
+However, by the 200th day of the mission, the side A computer started to show signs of failure due to corrupted memory. The rover got stuck in a boot loop, which prevented it from processing commands and drained the batteries. NASA executed a swap to the Side-B computer so that engineers could perform remote diagnostics on Side-A. In the following months, it was confirmed that part of Side-A’s memory was damaged.  The unusable regions of memory were quarantined, though NASA decided to keep Side-B as the primary computer due to the larger amount of usable memory. 
+
+
+The Side B computer would operate for most of Curiosity’s mission but in October of 2018 computer issues would surface again when it began experiencing problems that prevented the rover from storing key science and engineering data. Left with no other options, the curiosity team spent a week evaluating the Side-A computer and prepared it for swapping back in as the primary computer. With Side-A was once again active,  the Curiosity team was able to investigate the issues of the side-B computer in greater detail, determining that it also suffered from faulty regions of memory. Similar to how Side-A faults were handled, the bad regions of side-b memory would also be flagged and quarantined from use. 
+
+As of June 2019, Curiosity is still operating on its Side-A computer, on the lower memory capacity caused by its initial failure. However, on March 12th, 2019,  the side-A computer experienced a computer reset that triggered the rover's safe mode. This was a cause for concern as it was the second computer reset in three weeks. Both resets were caused by a corruption in the computer's memory, suggesting further damage within the memory of the side A computer.
+
+Despite the glitches, the Curiosity rover still remains functional on its Side-A computer with the team contemplating an eventual switch to the side-B system. But with the slow decline of both computer’s memory systems, it’s possible that the death blow to Curiosity's extraordinary mission performance may come from within the hand full of chips that form the memory of its computers.

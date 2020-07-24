@@ -1,0 +1,20 @@
+Steps to run this Module:
+
+1. Open Command Line.
+2.Get into the required folder. This means to the folder where you have stored this project.
+3.Next type "python run.py"
+4.A development server will start running on some loopback ip address(127.__.__.__) on your computer . We have left it in development form and don't suggest any changes made by anyobe else.
+5.Next you can go to your respective web browser and type the ip being shown in your cmd on the last line. this is the ip on which this website is working.
+6.You can see the website running .
+
+
+TEAM MEMBERS:
+
+PROJECT: BLOGGING WEBSITE
+
+INDEX                NAME 			ROLL NO
+    1              AVINASH KUMAR		1609006	
+   2               VIVEK KUMAR			1609041
+   3	   SAGAR KUMAR MAHATO	1609032	
+  4	  NAVEEN KUMAR		1609020	
+  5	  VISHAL KUMAR			1609040
